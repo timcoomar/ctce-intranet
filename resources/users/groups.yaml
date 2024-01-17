@@ -2,3 +2,5 @@
 #   title: Administrators
 #   roles:
 #     - admin
+members:
+  title: Members
