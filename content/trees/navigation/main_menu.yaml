@@ -8,3 +8,10 @@ tree:
   -
     id: e2bed455-942a-42ec-98fd-eb62b5c96386
     title: 'Staff Resources'
+    children:
+      -
+        id: ba502929-bc83-47c5-99c7-ff21e5510797
+        entry: 3c41c28a-a01a-4fa6-92a9-da3835eef63e
+      -
+        id: 02a3b12b-33df-46df-b88d-4a3ab32cb356
+        entry: c4298ad6-d44f-4df5-b3b5-2cd4324d8bf6
