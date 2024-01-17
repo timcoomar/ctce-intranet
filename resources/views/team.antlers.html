@@ -1,7 +1,9 @@
 {{ partial:partials/nav }}
 
 <header class="hero-image">
-    <img src="{{ config:app:url }}/assets/hero-images/hero-vienna.jpg">
+    {{ hero_image }}
+        <img src="{{ config:app:url }}/assets/{{ path }}">
+    {{ /hero_image }}
     <h2 class="title-main title-main--team">{{ title }}</h2>
 </header>
 

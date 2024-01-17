@@ -1,7 +1,13 @@
 {{ partial:partials/nav }}
 
 <header class="hero-image">
-    <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df">
+    {{ if hero_image }}
+        {{ hero_image }}
+            <img src="{{ config:app:url }}/assets/{{ path }}" />
+        {{ /hero_image }}
+    {{ else }}
+        <img src="{{ config:app:url }}/assets/hero-images/hero-generic.jpg" />
+    {{ /if }}
     <h2 class="title-main title-main--about">{{ title }}</h2>
 </header>
 
