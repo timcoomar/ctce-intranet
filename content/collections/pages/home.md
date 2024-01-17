@@ -5,7 +5,7 @@ title: 'What is CTCE?'
 template: about
 author: 9a316357-813d-4abb-b784-2db9da7ca072
 updated_by: 9a316357-813d-4abb-b784-2db9da7ca072
-updated_at: 1705514199
+updated_at: 1705514218
 hero_image: hero-images/hero-london-3.jpg
 ---
 City to City Europe is a trans-denominational network of urban churches and church plants committed to fostering a movement of the gospel in the cities of Europe. The following values unite us:
