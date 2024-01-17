@@ -5,6 +5,7 @@ tree:
   -
     id: e2bed455-942a-42ec-98fd-eb62b5c96386
     title: 'Staff Resources'
+    url: '#'
     children:
       -
         id: ba502929-bc83-47c5-99c7-ff21e5510797
