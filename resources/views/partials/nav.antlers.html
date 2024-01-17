@@ -1,0 +1,127 @@
+<header class="site-header">
+    <a href="/" class="site-logo">
+        <img src="assets/ctce-logo.svg" />
+    </a>
+    <h1 class="site-title">Team Intranet</h1>
+</header>
+<nav class="nav">
+    <img class="menu-icon" src="assets/burger-menu.svg" onclick="toggleMenu(this)">
+    <ul class="site-menu" role="navigation">
+        <li data-icon="+" class="menu-item">
+            <a href="/">What is CTCE?</a>
+        </li>
+        <li data-icon="+" class="menu-item--s">
+            <a href="#0">Staff Resources</a>
+            <div class="wrapper">
+                <div>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/">Team Values</a>
+                        </li>
+                        <li>
+                            <a href="/">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="/">Newsletters</a>
+                        </li>
+                        <li>
+                            <a href="/">Glossary</a>
+                        </li>
+                        <li>
+                            <a href="/">Knowledge Base</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li data-icon="+" class="menu-item">
+            <a href="/">City Profiles</a>
+        </li>
+        <li data-icon="+" class="menu-item">
+            <a href="/">CTCE Content</a>
+        </li>
+        <li data-icon="+" class="menu-item--s">
+            <a href="#0">Departments</a>
+            <div class="wrapper">
+                <div>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/">Administration</a>
+                        </li>
+                        <li>
+                            <a href="/">Advancement</a>
+                        </li>
+                        <li>
+                            <a href="/">Catalytic</a>
+                        </li>
+                        <li>
+                            <a href="/">Coaching</a>
+                        </li>
+                        <li>
+                            <a href="/">Communication</a>
+                        </li>
+                        <li>
+                            <a href="/">Planting Peers</a>
+                        </li>
+                        <li>
+                            <a href="/">Training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li data-icon="+" class="menu-item">
+            <a href="/">Meet the Team</a>
+        </li>
+    </ul>
+</nav>
+
+<script>
+
+// Hide mobile menu initially on page load
+
+const nav = document.querySelector(".site-menu");
+nav.classList.add("hide");
+
+// Set up click event for toggling mobile menu
+
+const toggleMenu = () => {
+    const navigation = document.querySelector(".site-menu");
+    const burgerMenu = document.querySelector(".menu-icon");
+    const src = burgerMenu.getAttribute("src");
+    const isBurger = src === "assets/burger-menu.svg";
+    const iconName = isBurger ? "assets/close.svg" : "assets/burger-menu.svg";
+
+    navigation.classList.remove("hide");
+
+burgerMenu.setAttribute("src", iconName);
+
+    if (!isBurger) {
+        navigation.classList.add("navigation--mobile--fadeout");
+        burgerMenu.classList.toggle("open");
+        navigation.classList.toggle("navigation--mobile");
+    }
+    else {
+        navigation.classList.remove("navigation--mobile--fadeout");
+        burgerMenu.classList.toggle("open");
+        navigation.classList.toggle("navigation--mobile");
+    }
+};
+
+
+// Submenu mobile
+
+const menuItem = document.querySelector(".menu-item--s");
+const subMenu = document.getElementsByClassName("menu-item--s");
+
+for (i = 0; i < subMenu.length; i++) {
+    subMenu[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        let accordionContent = this.querySelector(".sub-menu");
+        accordionContent.classList.toggle("open");
+    });
+}
+
+
+
+</script>

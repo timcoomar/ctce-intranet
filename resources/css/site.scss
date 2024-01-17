@@ -1,11 +1,63 @@
+:root {
+    --alpha: 1;
+    --ctce-darkblue-x: 45,71,84;
+    --ctce-red-x: 229,35,50;
+    --ctce-lightblue-x: 0,156,204;
+    --ctce-midgray-x: 87,108,118;
+    --ctce-pink-x: 215,125,130;
+
+    --ctce-darkblue: rgb(45,71,84);
+    --ctce-red: rgb(229,35,50);
+    --ctce-lightblue: rgb(0,156,204);
+    --ctce-midgray: rgb(87, 108, 118);
+    --ctce-pink: rgb(215,59,60);
+
+    --header-height: clamp(4rem, 12vh, 5.5rem);
+    --menu-padding: .9rem;
+    --lg-menu-width: clamp(13.5rem, 25vw, 16rem);
+    --lg-menu-pdtop: calc(5rem + 3vw);
+
+}
+
+$breakpoint: 740px;
+
 /* @import "tailwindcss/base"; */
 /* @import "tailwindcss/components"; */
 /* @import "tailwindcss/utilities"; */
 
 /* This is all you. */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.4;
+    font-family: 'Figtree', sans-serif;
+    line-height:    1.4;
+    margin:         0;
+    min-height:     100dvh;
+    background-color: var(--ctce-darkblue);
 
 }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+@import 'partials/nav';
+@import 'partials/about';
+
+.content-home {
+    padding: .4rem 2rem;
+    font-size: 1.8rem;
+    background-image: url("https://images.unsplash.com/photo-1590069119343-b9f43452f9ad");
+    background-repeat: none;
+    background-size: cover;
+    min-height: 100dvh;
+}
+
