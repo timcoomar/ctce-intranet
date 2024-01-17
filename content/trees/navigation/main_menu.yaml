@@ -1,1 +1,10 @@
-{  }
+tree:
+  -
+    id: c9004200-a5f7-49cd-b257-9a7e40843cb7
+    entry: home
+  -
+    id: db18ed9b-3b8f-4268-8186-8d680e2595ab
+    entry: ab056078-cebc-4d2c-a04b-c9a984968eb5
+  -
+    id: e2bed455-942a-42ec-98fd-eb62b5c96386
+    title: 'Staff Resources'
