@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88337a197bd9098ea3816ea068857e9c",
+    "content-hash": "0328bc101ff7f9548e092bd80acb4508",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1874,6 +1874,47 @@
                 }
             ],
             "time": "2022-05-21T17:30:32+00:00"
+        },
+        {
+            "name": "jacksleight/statamic-memberbox",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jacksleight/statamic-memberbox.git",
+                "reference": "824c7bd437eb777f9b3de07ee57e92d637963c92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jacksleight/statamic-memberbox/zipball/824c7bd437eb777f9b3de07ee57e92d637963c92",
+                "reference": "824c7bd437eb777f9b3de07ee57e92d637963c92",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Memberbox",
+                    "description": "This Statamic addon provides an out of the box solution for adding a members area or member restricted content to your site, building on Statamic’s existing user management and user form tags."
+                },
+                "laravel": {
+                    "providers": [
+                        "JackSleight\\StatamicMemberbox\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JackSleight\\StatamicMemberbox\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/jacksleight/statamic-memberbox/issues",
+                "source": "https://github.com/jacksleight/statamic-memberbox/tree/2.1.1"
+            },
+            "time": "2023-09-04T20:39:40+00:00"
         },
         {
             "name": "james-heinrich/getid3",
@@ -5267,16 +5308,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.42.0",
+            "version": "v4.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "a96c34386226d1c5c9ff18199dfaccba1e7f8ef7"
+                "reference": "801e954a054c0731e9890bb44be92970503cb6f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/a96c34386226d1c5c9ff18199dfaccba1e7f8ef7",
-                "reference": "a96c34386226d1c5c9ff18199dfaccba1e7f8ef7",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/801e954a054c0731e9890bb44be92970503cb6f9",
+                "reference": "801e954a054c0731e9890bb44be92970503cb6f9",
                 "shasum": ""
             },
             "require": {
@@ -5358,7 +5399,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.42.0"
+                "source": "https://github.com/statamic/cms/tree/v4.44.0"
             },
             "funding": [
                 {
@@ -5366,7 +5407,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-18T15:25:15+00:00"
+            "time": "2024-01-11T19:06:30+00:00"
         },
         {
             "name": "statamic/stringy",

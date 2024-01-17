@@ -10,7 +10,7 @@
         <title>{{ title ?? site:name }}</title>
         {{ vite src="resources/js/site.js|resources/css/site.scss" }}
     </head>
-    <body>
+    <body class="page-{{ template or 'home' }}">
         <div>
             {{ template_content }}
         </div>

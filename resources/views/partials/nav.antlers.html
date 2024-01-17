@@ -6,74 +6,24 @@
 </header>
 <nav class="nav">
     <img class="menu-icon" src="assets/burger-menu.svg" onclick="toggleMenu(this)">
+
     <ul class="site-menu" role="navigation">
-        <li data-icon="+" class="menu-item">
-            <a href="/">What is CTCE?</a>
-        </li>
-        <li data-icon="+" class="menu-item--s">
-            <a href="#0">Staff Resources</a>
-            <div class="wrapper">
-                <div>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="/">Team Values</a>
-                        </li>
-                        <li>
-                            <a href="/">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="/">Newsletters</a>
-                        </li>
-                        <li>
-                            <a href="/">Glossary</a>
-                        </li>
-                        <li>
-                            <a href="/">Knowledge Base</a>
-                        </li>
-                    </ul>
+        {{ nav:main_menu }}
+        <li data-icon="+" class="menu-item menu-item--s">
+            <a href="{{ url }}" {{ if is_current || is_parent }} class="current"{{ /if }}>{{ title }}</a>
+            {{ if children }}
+                <div class="wrapper">
+                    <div>
+                        <ul class="sub-menu">
+                            {{ *recursive children* }}
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            {{ /if }}
         </li>
-        <li data-icon="+" class="menu-item">
-            <a href="/">City Profiles</a>
-        </li>
-        <li data-icon="+" class="menu-item">
-            <a href="/">CTCE Content</a>
-        </li>
-        <li data-icon="+" class="menu-item--s">
-            <a href="#0">Departments</a>
-            <div class="wrapper">
-                <div>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="/">Administration</a>
-                        </li>
-                        <li>
-                            <a href="/">Advancement</a>
-                        </li>
-                        <li>
-                            <a href="/">Catalytic</a>
-                        </li>
-                        <li>
-                            <a href="/">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="/">Communication</a>
-                        </li>
-                        <li>
-                            <a href="/">Planting Peers</a>
-                        </li>
-                        <li>
-                            <a href="/">Training</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li data-icon="+" class="menu-item">
-            <a href="/">Meet the Team</a>
-        </li>
+        {{ /nav:main_menu }}
     </ul>
+
 </nav>
 
 <script>
@@ -113,6 +63,8 @@ burgerMenu.setAttribute("src", iconName);
 
 const menuItem = document.querySelector(".menu-item--s");
 const subMenu = document.getElementsByClassName("menu-item--s");
+
+console.log(menuItem)
 
 for (i = 0; i < subMenu.length; i++) {
     subMenu[i].addEventListener("click", function () {
