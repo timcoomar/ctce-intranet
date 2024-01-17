@@ -5,5 +5,6 @@ title: 'Team Values'
 author: 9a316357-813d-4abb-b784-2db9da7ca072
 template: about
 updated_by: 9a316357-813d-4abb-b784-2db9da7ca072
-updated_at: 1705482552
+updated_at: 1705494458
+hero_image: public/hero-dsc01711.jpg
 ---
