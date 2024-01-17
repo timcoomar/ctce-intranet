@@ -5,6 +5,6 @@ title: 'Meet the team'
 author: 9a316357-813d-4abb-b784-2db9da7ca072
 template: team
 updated_by: 9a316357-813d-4abb-b784-2db9da7ca072
-updated_at: 1705495208
+updated_at: 1705512430
 hero_image: hero-images/hero-vienna.jpg
 ---
