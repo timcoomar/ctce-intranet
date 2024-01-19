@@ -16,3 +16,7 @@ tree:
   -
     id: db18ed9b-3b8f-4268-8186-8d680e2595ab
     entry: ab056078-cebc-4d2c-a04b-c9a984968eb5
+  -
+    id: 325d4f0c-1197-4cbd-b4b0-ccfd3f260af5
+    title: Departments
+    url: '#'
