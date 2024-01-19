@@ -3,9 +3,9 @@ id: 984280ae-9b5d-45d6-8597-c86cf553a6bf
 blueprint: page
 title: Training
 author: 9a316357-813d-4abb-b784-2db9da7ca072
-template: about
+template: departments
 updated_by: 9a316357-813d-4abb-b784-2db9da7ca072
-updated_at: 1705682659
+updated_at: 1705682943
 ---
 We offer direct training of church planters via Intensive and other online courses: GFC, CCGC, and Preaching Lab (in development). However, this is really "filling the gap". Our primary task is to equip trainers who will do the training of planters in their own contexts. For this, we use strategy calls as well as the CTCE Trainer Development Pathway. CTCE Trainer Development Pathway Observation of CTC Training
 
