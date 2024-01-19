@@ -20,3 +20,7 @@ tree:
     id: 325d4f0c-1197-4cbd-b4b0-ccfd3f260af5
     title: Departments
     url: '#'
+    children:
+      -
+        id: 0ab27c82-2319-4c05-a581-0aa250d56853
+        entry: 6aba4a30-f875-4e93-a7f2-373c9d00fbaa
