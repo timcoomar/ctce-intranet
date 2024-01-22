@@ -7,12 +7,24 @@ overview: |-
   In every key city in Europe there are competent trainers with quality training resources training planters and leaders in their own context and language. (Nice example. Ha!)
 
   ### Our Mission 
-  The activity of the CTCE Trainer Team is primarily defined in four areas corresponding to the key aspects of our vision. Every key city: We as the CTCE Trainer Team seek to help city leaders move training forward through strategy and coaching calls at least twice a year. We are also available to help leaders think through next steps or deal with particular challenges more often upon their need and request. A Trainer Team point person will be assigned to every person in our European Trainer Community, generally divided regionally among the CTC Trainer Team. Competent trainers: We help those who will be involved in training church planters in their local movement to develop along the CTCE Trainer Development Pathway. This process provides them with relevant theory, experience, feedback, mentor-coaching and support as they grow into being skilled, gospel-centred trainers of adult learners. Quality training resources: We know that even the best trainer needs quality training materials that they can use and contextualise as needed. Expecting each trainer to come up with their own training materials from scratch is burdensome on the trainers and will ultimately create a bottleneck for training. Therefore, the CTCE Trainer Team also works to create and curate various training curricula. We aim for these materials to be clear, simple and multipliable for leaders with varying levels of experience and in a multitude of different contexts. Own context and language: As part of the value of contextualising training, we realise that training must be run in the local languages of its target audience. For this reason, translation plays a vital role in seeing training multiply across Europe. While the on-the-ground work of translation will always be on the local leaders and their teams, we are happy to share our experience in this area.
+  The activity of the CTCE Trainer Team is primarily defined in four areas corresponding to the key aspects of our vision. 
+
+  #### Every key city 
+  We as the CTCE Trainer Team seek to help city leaders move training forward through strategy and coaching calls at least twice a year. We are also available to help leaders think through next steps or deal with particular challenges more often upon their need and request. A Trainer Team point person will be assigned to every person in our European Trainer Community, generally divided regionally among the CTC Trainer Team. 
+
+  #### Competent trainers
+  We help those who will be involved in training church planters in their local movement to develop along the CTCE Trainer Development Pathway. This process provides them with relevant theory, experience, feedback, mentor-coaching and support as they grow into being skilled, gospel-centred trainers of adult learners. 
+
+  #### Quality training resources
+  We know that even the best trainer needs quality training materials that they can use and contextualise as needed. Expecting each trainer to come up with their own training materials from scratch is burdensome on the trainers and will ultimately create a bottleneck for training. Therefore, the CTCE Trainer Team also works to create and curate various training curricula. We aim for these materials to be clear, simple and multipliable for leaders with varying levels of experience and in a multitude of different contexts. 
+
+  #### Own context and language
+  As part of the value of contextualising training, we realise that training must be run in the local languages of its target audience. For this reason, translation plays a vital role in seeing training multiply across Europe. While the on-the-ground work of translation will always be on the local leaders and their teams, we are happy to share our experience in this area.
 
   ### Goal 2025
   As a milestone on the way to seeing our vision accomplished, we aim to see local training ecosystems functioning in 25 European HubCities by 2025 (9 currently running as of Jan. 1, 2023).
 updated_by: 9a316357-813d-4abb-b784-2db9da7ca072
-updated_at: 1705693336
+updated_at: 1705954993
 template: departments
 ---
 We offer direct training of church planters via Intensive and other online courses: GFC, CCGC, and Preaching Lab (in development). However, this is really "filling the gap". Our primary task is to equip trainers who will do the training of planters in their own contexts. For this, we use strategy calls as well as the CTCE Trainer Development Pathway. CTCE Trainer Development Pathway Observation of CTC Training
