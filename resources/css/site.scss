@@ -5,12 +5,14 @@
     --ctce-lightblue-x: 0,156,204;
     --ctce-midgray-x: 87,108,118;
     --ctce-pink-x: 215,125,130;
+    --ctce-darkgray-x: 41,41,41;
 
     --ctce-darkblue: rgb(45,71,84);
     --ctce-red: rgb(229,35,50);
     --ctce-lightblue: rgb(0,156,204);
     --ctce-midgray: rgb(87, 108, 118);
     --ctce-pink: rgb(215,59,60);
+    --ctce-darkgray: rgb(41,41,41);
 
     --header-height: clamp(4rem, 12vh, 5.5rem);
     --menu-padding: .9rem;
@@ -51,6 +53,7 @@ img {
 
 @import 'partials/nav';
 @import 'partials/about';
+@import 'partials/departments';
 
 .content-home {
     padding: .4rem 2rem;
@@ -59,4 +62,5 @@ img {
     background-repeat: none;
     background-size: cover;
     min-height: 100dvh;
+    transition: all .3s ease-out;
 }

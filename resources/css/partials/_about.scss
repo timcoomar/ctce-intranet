@@ -1,3 +1,5 @@
+// Mobile Version
+
 @media (max-width: $breakpoint) {
     .hero-image {
         position:                   relative;
@@ -32,8 +34,11 @@
         padding:        calc(1.5rem + 4vw);
         font-size:      clamp(1.2rem, 4vw, 1.5rem);
         color:        rgba(255,255,255,0.9);
+        transition:     all .3s ease-out;
     }
 }
+
+// Desktop version
 
 @media (min-width: $breakpoint) {
 
@@ -43,6 +48,7 @@
         max-height:                 45vh;
         overflow:                   hidden;
         position:                   relative;
+        transition:                 all .3s ease-out;
 
         img {
             width:                  100%;
@@ -82,6 +88,7 @@
         font-size:      clamp(1.2rem, 2.7vw, 1.6rem);
         margin-left:    var(--lg-menu-width);
         line-height:    1.45;
+        transition:     all .3s ease-out;
 
         h3 ~ p {
             margin-top: .8rem;
@@ -99,6 +106,12 @@
 
 }
 
+// Common Styles
+
 .page-about .title-main {
     --bg:                       var(--ctce-lightblue-x);
+}
+
+.page-team .title-main {
+    --bg:                       var(--ctce-red-x);
 }
